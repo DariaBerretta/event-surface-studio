@@ -1,0 +1,16 @@
+<div class="roi-picker">
+  <div class="roi-stage" aria-label="Draw a rectangle over the preview to choose the crop">
+    <img class="roi-image" alt="Video frame for selecting the crop" draggable="false" />
+    <svg class="roi-layer" xmlns="http://www.w3.org/2000/svg" aria-label="Drag to select a rectangular ROI" role="img">
+      <path class="roi-dimmer" fill-rule="evenodd" />
+      <rect class="roi-outline" />
+      <g class="roi-handles">
+        <circle data-roi-handle="tl" r="5" />
+        <circle data-roi-handle="tr" r="5" />
+        <circle data-roi-handle="bl" r="5" />
+        <circle data-roi-handle="br" r="5" />
+      </g>
+    </svg>
+  </div>
+  <p class="roi-help">Click and drag to draw a rectangle. Drag again anywhere to replace it.</p>
+</div>

@@ -1,0 +1,8 @@
+.roi-picker {width:100%;max-width:940px;margin:0 auto;}
+.roi-stage {position:relative;width:100%;overflow:hidden;border:1px solid #65758b;border-radius:10px;background:#141b25;line-height:0;user-select:none;}
+.roi-image {width:100%;height:auto;display:block;pointer-events:none;}
+.roi-layer {position:absolute;inset:0;width:100%;height:100%;cursor:crosshair;touch-action:none;}
+.roi-dimmer {fill:rgba(0,0,0,.50);pointer-events:none;}
+.roi-outline {fill:rgba(59,130,246,.13);stroke:#67d7ff;stroke-width:2;vector-effect:non-scaling-stroke;stroke-dasharray:8 4;pointer-events:none;}
+.roi-handles circle {fill:#fff;stroke:#1681cf;stroke-width:2;vector-effect:non-scaling-stroke;pointer-events:none;}
+.roi-help {font-size:13px;color:var(--st-text-color,#95a6bb);opacity:.85;line-height:1.4;margin:9px 0 0;text-align:center;}
